@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header, footer{
+  height: 60px;
+  background-color: rgb(131, 226, 199);
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1 {
+  margin: 15px 0 0 20px;
+  font-size: 20px;
+  font-style: italic;
+  color:midnightblue;
+  text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF,
+  -2px 2px 0 #FFF, 2px -2px 0 #FFF,
+  0px 2px 0 #FFF,  0-2px 0 #FFF,
+  -2px 0 0 #FFF, 2px 0 0 #FFF;
+  float: left;
+}
+
+nav {
+  margin:0;
+  float: right;
+  height: 45px;
+}
+
+nav li {
+  background-color: cadetblue;
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  border-right: 2px solid #777;
+  padding: 0 15px;
+}
+
+nav li:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+main {
+  margin: 0 auto;
+  position: relative;
+  height: 650px;
+  display: flex;
+}
+
+.main-theam {
+  width: 70%;
+  background-image: url(../img/23018745.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo {
+  position: absolute;
+  bottom: 80%;
+  right: 34%;
+  
+}
+
+.main-message {
+  padding: 0 15px;
+  background-color: rgba(119, 119, 119, 0.2);
+  position: absolute;
+  top: 74%;
+  left: 3%;
+}
+
+
+.point {
+  width: 30%;
+  background-color:  rgb(131, 226, 199);
+}
+
+.point-title {
+  margin-top: 15px
+}
+
+.point li {
+  text-align: center;
+  list-style-type: none;
+  width: 95%;
+  height: 90px;
+  margin: 5px;
+}
+
+h4 {
+  color:rgb(10, 87, 39);
+  text-align: center;
+  height: 45px;
+  width: 80%;
+  border: 7px double rgb(48, 1, 236);
+  background-image: linear-gradient(to bottom, rgb(225, 242, 113), rgb(148, 203, 109));
+}
+
+footer p{
+  text-align: center;
+
+}
