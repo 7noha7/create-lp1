@@ -3,8 +3,9 @@ body {
   padding: 0;
   color: #222;
   background-color: rgb(131, 226, 199);
-  width: 1000px;
+  width:fit-content;
 }
+
 ul {
   padding: 0;
 }
@@ -58,7 +59,9 @@ main {
   display: flex;
   background-color: #FFF;
 }
-
+.main-image {
+  position: relative;
+}
 .logo {
   position: absolute;
   left: 50%;
@@ -146,7 +149,6 @@ footer {
   
   @media(max-width:980px) {
 
-
     header {
     flex-direction: column;
     justify-content:unset;
@@ -161,13 +163,16 @@ footer {
     border: 2px double #fff;
 }
 
-
 main {
+  height: auto;
     background-color: rgb(131, 226, 199);
-    height: fit-content;
+    display:block;
+    /* height: fit-content;
     flex-direction: column;
     align-items: center;
-    
+     */
+    }
+  
     }
     .main-theam {
       width: 70%;
@@ -177,4 +182,4 @@ main {
     footer {
       margin-top: 70px;
     }
-  }
+  
